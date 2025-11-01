@@ -45,4 +45,8 @@ def predict(data: StudentData):
 # Root route
 @app.get("/")
 def home():
+
     return {"message": "Welcome to the E-Learning ML Prediction API!"}
+
+from asgiref.wsgi import WsgiToAsgi
+app = WsgiToAsgi(app)
