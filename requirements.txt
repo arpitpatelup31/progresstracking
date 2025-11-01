@@ -4,4 +4,5 @@ pydantic==2.12.3
 uvicorn
 pandas
 scikit-learn
-mangum
+asgiref
+
